@@ -381,6 +381,113 @@
       opacity: 0.45;
     }
 
+    /* ── Mobile ── */
+    @media (max-width: 768px) {
+      header {
+        padding: 20px 24px 2px;
+      }
+
+      .avatar-link {
+        width: 66px;
+        height: 66px;
+      }
+
+      nav { gap: 18px; }
+
+      nav a { font-size: 15px; }
+
+      #hero {
+        padding: 16px 24px 0;
+      }
+
+      .hero-name {
+        font-size: 34px;
+        margin-bottom: -8px;
+      }
+
+      .hero-tagline {
+        font-size: 34px;
+        letter-spacing: -1px;
+        max-width: 100%;
+      }
+
+      .projects-cta {
+        margin: 24px 0 24px;
+      }
+
+      .projects-cta a { font-size: 18px; }
+
+      #projects {
+        padding: 40px 24px 30px;
+      }
+
+      .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+
+      #experiences {
+        padding: 60px 24px 20px;
+      }
+
+      .experiences-heading {
+        font-size: 34px;
+        text-align: left;
+      }
+
+      .exp-table,
+      .exp-table tbody,
+      .exp-table tr,
+      .exp-table td {
+        display: block;
+      }
+
+      .exp-table tr {
+        padding: 12px 0;
+        border-top: 1px solid var(--border);
+        border-bottom: none;
+      }
+
+      .exp-table tr:last-child {
+        border-bottom: 1px solid var(--border);
+      }
+
+      .exp-table td {
+        font-size: 14px;
+        padding: 1px 0;
+      }
+
+      .exp-table td:last-child {
+        text-align: left;
+        font-size: 12px;
+        margin-top: 2px;
+      }
+
+      #about {
+        padding: 60px 24px 60px;
+      }
+
+      .about-heading {
+        font-size: 36px;
+        margin-bottom: 32px;
+      }
+
+      .about-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+
+      .about-left { font-size: 32px; }
+
+      footer {
+        padding: 24px 24px;
+        gap: 24px;
+        flex-wrap: wrap;
+      }
+
+      .mypantry-card { cursor: pointer; }
+    }
+
     /* ── Scroll reveal ── */
     .reveal {
       opacity: 0;
